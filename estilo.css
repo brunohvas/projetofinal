@@ -1,0 +1,166 @@
+html {
+    height: 62.5%
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
+
+body {
+    margin: 0;
+    width: 100vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+    align-items: center;
+}
+
+.topheader {
+    background-color: rgb(39, 36, 36);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 5%;
+    padding: 1.6rem;
+}
+
+.menu-list {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-right: 8rem;
+}
+
+.menu {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid yellow;
+    padding: 0.6rem;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: yellow;
+    margin: auto;
+}
+
+
+.first {
+    display: flex;
+    background: rgb(251, 249, 155);
+    background: linear-gradient(180deg, rgba(251, 249, 155, 1) 69%, rgba(255, 205, 0, 0.9920343137254902) 100%);
+    justify-content: space-around;
+}
+
+.first-content {
+    padding: 2rem;
+}
+
+.first-content h1 {
+    font-size: 4rem;
+}
+
+.btn {
+    background-color: yellow;
+    padding: 1rem;
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+    border-radius: 10%;
+    letter-spacing: 0.2rem;
+}
+
+.second {
+    width: 100%;
+    text-align: center;
+    height: 110vh;
+    margin-bottom: 5%;
+}
+
+.second-title {
+    font-size: 2.6rem;
+    letter-spacing: 0.2rem;
+    padding: 3rem;
+}
+
+
+
+.gallery-card {
+    display: flex;
+    height: 80vh;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5rem;
+}
+
+.card {
+    border-radius: 1rem ;
+    list-style: none;
+    background-color: #ccc;
+    flex-direction: column;
+    width: max-content;
+}
+
+.text-title {
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+
+.text-card {
+    max-width: 400px;
+}
+
+.third {
+    display: flex;
+    background-color: rgb(23, 41, 139);
+    height: 60vh;
+    justify-content: center;
+}
+
+.img-third {
+    margin-left: 5%;
+    margin-top: auto;
+    margin-bottom: -0.3rem;
+}
+
+.third-sect {
+    margin-left: 2rem;
+    margin-top: 4rem;
+    margin-right: 4rem;
+    color: white;
+}
+
+.third-title {
+    font-size: 2.4rem;
+    margin-bottom: 4rem;
+}
+
+.map {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.map img {
+    width: 80%;
+}
+
+.map p {
+    text-align: end;
+    width: 80%;
+}
+
+footer {
+    text-align: center;
+    height: 10vh;
+    background-color: rgb(39, 36, 36);
+    color:white;
+}
+
